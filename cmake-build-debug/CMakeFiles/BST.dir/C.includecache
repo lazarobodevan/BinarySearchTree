@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.c
+BST.h
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
+stdlib.h
+-
+string.h
+-
+
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
+stdio.h
+-
+
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/TADFIla.c
+TADFIla.h
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/TADFIla.h
+stdlib.h
+-
+
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/TADFIla.h
+BST.h
+/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
+
