@@ -21,3 +21,5 @@ void insereAluno(tipoApontador *no, TAluno aluno);
 void userPesquisaAluno(tipoApontador *no);
 void pesquisaAluno(tipoApontador *arvore, int matricula);
 void posOrdem(tipoApontador *arvore);
+void preOrdem(tipoApontador *arvore);
+void ordem(tipoApontador *arvore);

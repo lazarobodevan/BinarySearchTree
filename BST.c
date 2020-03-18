@@ -87,14 +87,25 @@ void userPesquisaAluno(tipoApontador *no){
 
 void posOrdem(tipoApontador *arvore){
     // nao funciona hm kk bjs
-    if((*arvore)->esq != NULL){
+    if(*arvore != NULL){
         posOrdem(&(*arvore)->esq);
-        printf("%d\n", (*arvore)->aluno.matricula);
-        return;
-    }
-    if((*arvore)->dir != NULL){
         posOrdem(&(*arvore)->dir);
+        printf("%d\n",(*arvore)->aluno.matricula);
+    }
+}
+
+void preOrdem(tipoApontador *arvore){
+    if(*arvore != NULL){
         printf("%d\n", (*arvore)->aluno.matricula);
-        return;
+        preOrdem(&(*arvore)->esq);
+        preOrdem(&(*arvore)->dir);
+    }
+}
+
+void ordem(tipoApontador *arvore){
+    if(*arvore != NULL){
+        ordem(&(*arvore)->esq);
+        printf("%d\n", (*arvore)->aluno.matricula);
+        ordem(&(*arvore)->dir);
     }
 }

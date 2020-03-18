@@ -8,8 +8,10 @@ int main() {
 
     FArvoreVazia(&arvore);
     leArquivo(alunos,&arvore);
+    //posOrdem(&arvore);
+    //preOrdem(&arvore);
+    ordem(&arvore);
     //userPesquisaAluno(&arvore);
-    posOrdem(&arvore);
 
     return 0;
 }
