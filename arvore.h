@@ -13,3 +13,5 @@ void insere(tipoApontador *no, int valor);
 void ordem(tipoApontador *no);
 void preOrdem(tipoApontador *no);
 void posOrdem(tipoApontador *no);
+int altura(tipoApontador no);
+void pesquisa(tipoApontador no, int chave);

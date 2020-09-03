@@ -43,10 +43,10 @@ RM = "/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST"
+CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BST.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/BST.dir/flags.make
 
 CMakeFiles/BST.dir/main.c.o: CMakeFiles/BST.dir/flags.make
 CMakeFiles/BST.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BST.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BST.dir/main.c.o   -c "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BST.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BST.dir/main.c.o   -c "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/main.c"
 
 CMakeFiles/BST.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BST.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/main.c" > CMakeFiles/BST.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/main.c" > CMakeFiles/BST.dir/main.c.i
 
 CMakeFiles/BST.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BST.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/main.c" -o CMakeFiles/BST.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/main.c" -o CMakeFiles/BST.dir/main.c.s
 
 CMakeFiles/BST.dir/arvore.c.o: CMakeFiles/BST.dir/flags.make
 CMakeFiles/BST.dir/arvore.c.o: ../arvore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BST.dir/arvore.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BST.dir/arvore.c.o   -c "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BST.dir/arvore.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BST.dir/arvore.c.o   -c "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/arvore.c"
 
 CMakeFiles/BST.dir/arvore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BST.dir/arvore.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.c" > CMakeFiles/BST.dir/arvore.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/arvore.c" > CMakeFiles/BST.dir/arvore.c.i
 
 CMakeFiles/BST.dir/arvore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BST.dir/arvore.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.c" -o CMakeFiles/BST.dir/arvore.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/arvore.c" -o CMakeFiles/BST.dir/arvore.c.s
 
 # Object files for target BST
 BST_OBJECTS = \
@@ -95,7 +95,7 @@ BST: CMakeFiles/BST.dir/main.c.o
 BST: CMakeFiles/BST.dir/arvore.c.o
 BST: CMakeFiles/BST.dir/build.make
 BST: CMakeFiles/BST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable BST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable BST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/BST.dir/clean:
 .PHONY : CMakeFiles/BST.dir/clean
 
 CMakeFiles/BST.dir/depend:
-	cd "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles/BST.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/cmake-build-debug/CMakeFiles/BST.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/BST.dir/depend
 

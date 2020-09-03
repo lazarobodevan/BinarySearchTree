@@ -54,3 +54,36 @@ void posOrdem(tipoApontador *no){
 
     }
 }
+
+int altura(tipoApontador no){
+    int he, hd;
+    if(no == NULL){
+        return -1;
+    }else{
+        he = altura(no->esq);
+        hd = altura(no->dir);
+        if(he < hd)
+            return hd+1;
+        else
+            return he+1;
+    }
+}
+
+void pesquisa(tipoApontador no, int chave){
+    if(no == NULL){
+        printf("Ja to cancelada mesmo kkkkkkkkkkkk\n");
+        return;
+    }
+    if(chave < no->data){
+        printf("esquerda\n");
+        pesquisa(no->esq, chave);
+    }else if(chave > no->data){
+        printf("direita\n");
+        pesquisa(no->dir, chave);
+    }else if(chave == no->data){
+        printf("Encontrei!\n");
+        printf("Valor: %d\n", no->data);
+        return;
+    }
+
+}

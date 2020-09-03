@@ -20,10 +20,12 @@ int main() {
 
 
     printf("\n--------------\n");
-    ordem(&no);
+    //ordem(&no);
     printf("\n");
-    preOrdem(&no);
+    //preOrdem(&no);
     printf("\n");
-    posOrdem(&no);
+    //posOrdem(&no);
+    printf("%d\n", altura(no));
+    pesquisa(no, 0);
     return 0;
 }

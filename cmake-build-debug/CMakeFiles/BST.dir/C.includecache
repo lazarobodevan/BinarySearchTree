@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.c
-stdlib.h
--
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/arvore.h
+
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/main.c
 stdio.h
 -
 arvore.h
-/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.h
-
-/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.h
-
-/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/main.c
-stdio.h
--
-arvore.h
-/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.h
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BinarySearchTree/arvore.h
 
