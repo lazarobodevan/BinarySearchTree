@@ -1,4 +1,4 @@
-# Install script for directory: /home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST
+# Install script for directory: /home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

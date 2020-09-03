@@ -48,10 +48,10 @@ RM = "/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST"
+CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/cmake-build-debug/CMakeFiles" "/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles" "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,32 @@ BST/fast:
 	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/build
 .PHONY : BST/fast
 
-BST.o: BST.c.o
+arvore.o: arvore.c.o
 
-.PHONY : BST.o
-
-# target to build an object file
-BST.c.o:
-	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/BST.c.o
-.PHONY : BST.c.o
-
-BST.i: BST.c.i
-
-.PHONY : BST.i
-
-# target to preprocess a source file
-BST.c.i:
-	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/BST.c.i
-.PHONY : BST.c.i
-
-BST.s: BST.c.s
-
-.PHONY : BST.s
-
-# target to generate assembly for a file
-BST.c.s:
-	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/BST.c.s
-.PHONY : BST.c.s
-
-TADFIla.o: TADFIla.c.o
-
-.PHONY : TADFIla.o
+.PHONY : arvore.o
 
 # target to build an object file
-TADFIla.c.o:
-	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/TADFIla.c.o
-.PHONY : TADFIla.c.o
+arvore.c.o:
+	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/arvore.c.o
+.PHONY : arvore.c.o
 
-TADFIla.i: TADFIla.c.i
+arvore.i: arvore.c.i
 
-.PHONY : TADFIla.i
+.PHONY : arvore.i
 
 # target to preprocess a source file
-TADFIla.c.i:
-	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/TADFIla.c.i
-.PHONY : TADFIla.c.i
+arvore.c.i:
+	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/arvore.c.i
+.PHONY : arvore.c.i
 
-TADFIla.s: TADFIla.c.s
+arvore.s: arvore.c.s
 
-.PHONY : TADFIla.s
+.PHONY : arvore.s
 
 # target to generate assembly for a file
-TADFIla.c.s:
-	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/TADFIla.c.s
-.PHONY : TADFIla.c.s
+arvore.c.s:
+	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/arvore.c.s
+.PHONY : arvore.c.s
 
 main.o: main.c.o
 
@@ -213,12 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BST"
 	@echo "... edit_cache"
-	@echo "... BST.o"
-	@echo "... BST.i"
-	@echo "... BST.s"
-	@echo "... TADFIla.o"
-	@echo "... TADFIla.i"
-	@echo "... TADFIla.s"
+	@echo "... arvore.o"
+	@echo "... arvore.i"
+	@echo "... arvore.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

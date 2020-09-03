@@ -6,33 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.c
-BST.h
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.c
 stdlib.h
 -
-string.h
--
-
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
 stdio.h
 -
+arvore.h
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.h
 
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/TADFIla.c
-TADFIla.h
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/TADFIla.h
-stdlib.h
--
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.h
 
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/TADFIla.h
-BST.h
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
-
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/main.c
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/main.c
 stdio.h
 -
-string.h
--
-BST.h
-/home/lazarus/Área de Trabalho/UFV/3_Semestre/AEDS2/Exercicios/BST/BST.h
+arvore.h
+/home/lazarus/Área de Trabalho/UFV/PER/AEDS II/Estudo/BST/arvore.h
 

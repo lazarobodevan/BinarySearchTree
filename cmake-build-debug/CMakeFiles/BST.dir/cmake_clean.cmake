@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/BST.dir/main.c.o"
-  "CMakeFiles/BST.dir/BST.c.o"
-  "CMakeFiles/BST.dir/TADFIla.c.o"
+  "CMakeFiles/BST.dir/arvore.c.o"
   "BST.pdb"
   "BST"
 )

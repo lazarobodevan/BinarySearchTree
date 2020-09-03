@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/BST.dir/main.c.o CMakeFiles/BST.dir/BST.c.o CMakeFiles/BST.dir/TADFIla.c.o  -o BST 
+/usr/bin/cc -g   CMakeFiles/BST.dir/main.c.o CMakeFiles/BST.dir/arvore.c.o  -o BST 

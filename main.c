@@ -1,17 +1,29 @@
 #include <stdio.h>
-#include <string.h>
-#include "BST.h"
+#include "arvore.h"
 int main() {
+    tipoApontador no;
+    inicializa(&no);
 
-    tipoNo *arvore;
-    FILE *alunos;
+    insere(&no, 20);
+    insere(&no, 10);
+    insere(&no, 5);
+    insere(&no, 2);
+    insere(&no, 4);
+    insere(&no, 6);
+    insere(&no, 7);
+    insere(&no, 15);
+    insere(&no, 18);
+    insere(&no, 12);
+    insere(&no, 17);
+    insere(&no, 19);
 
-    FArvoreVazia(&arvore);
-    leArquivo(alunos,&arvore);
-    //posOrdem(&arvore);
-    //preOrdem(&arvore);
-    ordem(&arvore);
-    //userPesquisaAluno(&arvore);
 
+
+    printf("\n--------------\n");
+    ordem(&no);
+    printf("\n");
+    preOrdem(&no);
+    printf("\n");
+    posOrdem(&no);
     return 0;
 }

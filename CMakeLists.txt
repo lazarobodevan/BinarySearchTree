@@ -3,4 +3,4 @@ project(BST C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(BST main.c BST.c BST.h TADFIla.c TADFIla.h)
+add_executable(BST main.c arvore.c arvore.h)
