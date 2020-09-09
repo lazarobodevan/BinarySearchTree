@@ -15,3 +15,5 @@ void preOrdem(tipoApontador *no);
 void posOrdem(tipoApontador *no);
 int altura(tipoApontador no);
 void pesquisa(tipoApontador no, int chave);
+void antecessor(tipoApontador q, tipoApontador *r);
+void retira(tipoApontador *no, int chave);

@@ -20,12 +20,15 @@ int main() {
 
 
     printf("\n--------------\n");
-    //ordem(&no);
+    ordem(&no);
     printf("\n");
     //preOrdem(&no);
     printf("\n");
     //posOrdem(&no);
-    printf("%d\n", altura(no));
-    pesquisa(no, 0);
+    //printf("%d\n", altura(no));
+    //pesquisa(no, 4);
+    retira(&no, 1);
+    preOrdem(&no);
+    printf("\n");
     return 0;
 }

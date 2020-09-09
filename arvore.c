@@ -87,3 +87,60 @@ void pesquisa(tipoApontador no, int chave){
     }
 
 }
+
+void antecessor(tipoApontador q, tipoApontador *r){
+    tipoApontador aux;
+    if((*r)->dir != NULL){
+        antecessor(q, &(*r)->dir);
+        return;
+    }
+    q->data = (*r)->data;
+    aux = *r;
+    *r = (*r)->esq;
+    free(aux);
+}
+
+void retira(tipoApontador *no, int chave){
+    if(*no == NULL){
+        printf("Elemento inexistente ou árvore vazia!\n");
+        return;
+
+    }else {
+        if (chave < (*no)->data) {
+            printf("Esquerda!\n");
+            retira(&(*no)->esq, chave);
+            return;
+        }
+        if (chave > (*no)->data){
+            printf("Direita!\n");
+            retira(&(*no)->dir, chave);
+            return;
+        }
+        tipoApontador aux;
+
+        if((*no)->dir == NULL && (*no)->esq != NULL){
+            aux = *no;
+            *no = (*no)->esq;
+            printf("Removido: %d\n", aux->data);
+            free(aux);
+            printf("Nó substituido pelo filho a esquerda!\n\n");
+            return;
+        }
+        if((*no)->esq != NULL && (*no)->dir != NULL){
+            antecessor(*no, &(*no)->esq);
+            printf("Nó substituido pelo antecessor!\n");
+            return;
+        }
+        if((*no)->esq == NULL && (*no)->dir != NULL){
+            aux = *no;
+            *no = (*no)->dir;
+            printf("Removido: %d\n", aux->data);
+            free(aux);
+            printf("No substituido pelo filho a direita!\n\n");
+            return;
+        }
+        *no = NULL;
+        aux = *no;
+        free(aux);
+    }
+}
