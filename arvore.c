@@ -144,3 +144,51 @@ void retira(tipoApontador *no, int chave){
         free(aux);
     }
 }
+
+void percursoLargura(tipoApontador no, TFila fila){
+    tipoApontador aux;
+    if(no != NULL){
+        enfileira(&fila, no);
+        while(!isFilaVazia(fila)){
+            desenfileira(&fila, aux);
+            printf("%d ", aux->data);
+            if(aux->esq != NULL)
+                enfileira(&fila, aux->esq);
+            if(aux->dir != NULL)
+                enfileira(&fila, aux->dir);
+        }
+    }
+}
+//------------------------------Operacoes com fila
+
+void filaVazia(TFila *fila){
+    fila->pFrente = (TCelula*) malloc(sizeof(TCelula));
+    fila->pTras = fila->pFrente;
+    fila->pFrente->pProx = NULL;
+}
+int isFilaVazia(TFila fila){
+    return (fila.pFrente == fila.pTras);
+}
+
+int enfileira(TFila *fila, tipoApontador no){
+    TCelula *novo;
+    novo = (TCelula *) malloc(sizeof(TCelula));
+    if(novo == NULL)
+        return 0;
+    fila->pTras->pProx = novo;
+    fila->pTras = novo;
+    novo->no = *no;
+    novo->pProx = NULL;
+    return 1;
+}
+
+int desenfileira(TFila *fila, tipoApontador no){
+    TCelula *pAux;
+    if(isFilaVazia(*fila))
+        return 0;
+    pAux = fila->pFrente;
+    fila->pFrente = fila->pFrente->pProx;
+    *no = fila->pFrente->no;
+    free(pAux);
+    return 1;
+}

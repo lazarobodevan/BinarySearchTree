@@ -2,7 +2,11 @@
 #include "arvore.h"
 int main() {
     tipoApontador no;
+    tipoApontador aux;
+    TFila fila;
+    filaVazia(&fila);
     inicializa(&no);
+    inicializa(&aux);
 
     insere(&no, 20);
     insere(&no, 10);
@@ -18,17 +22,13 @@ int main() {
     insere(&no, 19);
 
 
-
+/*
     printf("\n--------------\n");
     ordem(&no);
-    printf("\n");
-    //preOrdem(&no);
-    printf("\n");
-    //posOrdem(&no);
-    //printf("%d\n", altura(no));
-    //pesquisa(no, 4);
-    retira(&no, 1);
+    retira(&no, 10);
     preOrdem(&no);
     printf("\n");
+    */
+    percursoLargura(no, fila);
     return 0;
 }
